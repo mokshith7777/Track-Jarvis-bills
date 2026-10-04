@@ -1,11 +1,14 @@
-<div align="center">
+# Jarvis Expense ⚡
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Local-first Android expense tracker built with Kotlin, Jetpack Compose and Room SQLite.
 
-  <h1>Built with AI Studio</h2>
+## Build
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+```bash
+./gradlew :app:assembleDebug
+./gradlew :app:testDebugUnitTest
+```
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+Target SDK: 36. Minimum SDK: 24.
 
-</div>
+Jarvis Expense is designed around local-first expense storage, duplicate protection, analytics, history, and a cyber HUD interface.
